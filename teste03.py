@@ -1,0 +1,5 @@
+nome =input ('Seu nome aqui:')
+dia = input ('Dia de aniversário:')
+mes = input ('Mês de aniversarios:')
+ano = input ('Ano nascimento:')
+print(nome, 'nasceu em', dia,'de',mes,'de',ano+'.'+'Correto?') 
