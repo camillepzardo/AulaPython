@@ -1,0 +1,6 @@
+real = float(input('Quanto você quer converter? R$ '))
+dolar = (real/5.34)
+euro = (real/5.93)
+print('Você pode comprar: \nEm dólares U${:.2f}.'.format(dolar))
+print('Em euro €{:.2f}.'.format(euro))
+print('Valores para cotação do dia de hoje.')
